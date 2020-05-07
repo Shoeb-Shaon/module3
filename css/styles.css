@@ -1,143 +1,69 @@
-/* Base Styles */
-
-* {
-	box-sizing: border-box;
-}
-
-h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
-}
-
-body {
-	
-	background-color: #990012;
-
-}
-
-p {
-	padding: 10px;
-	margin: 0;
-}
-
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-}
-
-section {
-	border:	1px solid black;
-	background-color:#C24641;
-	width: 100%;
-	height: auto;
-	font-family: Helvetica;
-	color: black;
-	position: relative;
-	overflow: auto;
-}
-
-#hilsha {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: black;
-	color: #FFFF00;
-}
-
-#biryani {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: black;
-	color: #FFFF00;
-}
-
-#chingri {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: black;
-	color: #FFFF00;
-	padding: 5px;
-}
-
-#hilsha-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#biryani-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#chingri-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-}
-
+/** Navbar, overriding bootstraps default colors for background, borders, some elements position etc. **/
 #header-nav {
-  border: 0;
-  background-color: black;
-  color: #FFFFFF;
+	background-color: #7AE7C7;
+	border-color: #6FD2B5;
+	border-radius: 0;
+	border: 0;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid red;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.navbar-default .navbar-toggle {
+	border-color: #6FD2B5;
 }
 
-.nav-header {
-  background-color: #FFFFFF;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #A3E2CF;
 }
 
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #6FD2B5;
 }
 
-#nav-list {
-  color: white;
+.navbar-nav {
+    margin: 0px -15px;
 }
 
-hr {
-  border-color: white;
+li {
+	border-bottom: 1px solid #6FD2B5;
 }
 
-.item {
-  color: white;
-  font-size: 1.2em;
+li:last-child {
+	border-bottom: none;
 }
+
+li:hover {
+	background-color: #6FD2B5;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/** End navbar**/
+
+/** Main content **/
+h1 {
+	margin-bottom: 20px;
+}
+
+article {
+	padding: 5px 15px 10px 15px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+#chicken {
+	background-color: #FFF689;
+}
+
+#beef {
+	background-color: #EC0B43;
+}
+
+#sushi {
+	background-color: #D6FFB7;
+}
+/** End main content **/

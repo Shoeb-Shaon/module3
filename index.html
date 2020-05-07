@@ -1,107 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-	
-	<title>Module 3 Solution</title>
 </head>
+
 <body>
-    <header class="nav-header">
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <p class="nav-brand">Food, LLC</p>
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Food, LLC</a>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav visible-xs">
+                        <li class="text-center">
+                            <a href="#chicken">Chicken</a>
+                        </li>
+                        <li class="text-center">
+                            <a href="#beef">Beef</a>
+                        </li>
+                        <li class="text-center">
+                            <a href="#sushi">Sushi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 class="text-center">Our Menu</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article id="chicken">
+                    <h3 class="text-center">Chicken</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin libero felis, pulvinar at sem et, tempor ultrices massa. Suspendisse malesuada et libero eget placerat. Nunc faucibus gravida ipsum, eu gravida nisl placerat et. Curabitur vel facilisis ex. Etiam luctus mattis nisi, eu blandit diam sollicitudin sit amet. Morbi ultricies non sem vel facilisis. Ut rutrum purus mollis, efficitur augue ac, dapibus ante. Duis condimentum neque nec sodales condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt laoreet ante, id varius tortor luctus ac. Nam ac lorem vel velit commodo mollis nec ut leo. Nulla facilisi. Aliquam sem metus, rutrum sit amet dignissim pretium, condimentum eu nunc. Suspendisse ultricies blandit placerat. Quisque vel lectus et justo venenatis rutrum eu sit amet metus. Etiam feugiat finibus tempus. Donec pulvinar luctus lectus euismod pellentesque. Morbi a rutrum nibh. Sed et nisl vitae ante vestibulum elementum. Nunc scelerisque, massa vel fermentum posuere, nibh dolor maximus nulla, non interdum neque arcu venenatis eros. Aliquam ullamcorper tempor libero sed commodo. Etiam non tempor purus. Curabitur lobortis, tortor non accumsan tempus, leo nunc efficitur turpis, vel tempor urna tellus ac eros. Sed et congue ligula. Mauris sit amet magna eget felis mattis iaculis at sed ligula. Sed a luctus elit, sed volutpat dui. Nam nec nunc lobortis, sagittis eros id, faucibus nunc. Aliquam id justo nec urna lobortis feugiat. Maecenas tincidunt risus eget eleifend blandit. Curabitur tincidunt ante vitae elit porta, sit amet semper ante consectetur. Donec in nibh mattis lectus posuere pellentesque. Sed nec est sed erat viverra ultrices vel at leo. Maecenas faucibus sit amet ligula in facilisis. Nullam bibendum, est et placerat rutrum, sem enim lobortis ante, ut interdum ex arcu vel lorem. Ut risus lacus, interdum eu consequat nec, hendrerit at arcu. Donec eleifend et urna nec pretium. Suspendisse consequat viverra turpis, ac maximus urna maximus nec. Maecenas massa orci, blandit eget nibh eget, elementum rhoncus lorem. Vivamus eget tortor ut arcu iaculis tincidunt et tincidunt nisi. Ut gravida orci sit amet velit feugiat malesuada. Etiam tincidunt dolor id aliquet molestie. Etiam egestas sem nec dolor pharetra, id placerat sapien bibendum.</p>
+                    <a href="#">Back To Top</a>
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article id="beef">
+                    <h3 class="text-center">Beef</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin libero felis, pulvinar at sem et, tempor ultrices massa. Suspendisse malesuada et libero eget placerat. Nunc faucibus gravida ipsum, eu gravida nisl placerat et. Curabitur vel facilisis ex. Etiam luctus mattis nisi, eu blandit diam sollicitudin sit amet. Morbi ultricies non sem vel facilisis. Ut rutrum purus mollis, efficitur augue ac, dapibus ante. Duis condimentum neque nec sodales condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt laoreet ante, id varius tortor luctus ac. Nam ac lorem vel velit commodo mollis nec ut leo. Nulla facilisi. Aliquam sem metus, rutrum sit amet dignissim pretium, condimentum eu nunc. Suspendisse ultricies blandit placerat. Quisque vel lectus et justo venenatis rutrum eu sit amet metus. Etiam feugiat finibus tempus. Donec pulvinar luctus lectus euismod pellentesque. Morbi a rutrum nibh. Sed et nisl vitae ante vestibulum elementum. Nunc scelerisque, massa vel fermentum posuere, nibh dolor maximus nulla, non interdum neque arcu venenatis eros. Aliquam ullamcorper tempor libero sed commodo. Etiam non tempor purus. Curabitur lobortis, tortor non accumsan tempus, leo nunc efficitur turpis, vel tempor urna tellus ac eros. Sed et congue ligula. Mauris sit amet magna eget felis mattis iaculis at sed ligula. Sed a luctus elit, sed volutpat dui. Nam nec nunc lobortis, sagittis eros id, faucibus nunc. Aliquam id justo nec urna lobortis feugiat. Maecenas tincidunt risus eget eleifend blandit. Curabitur tincidunt ante vitae elit porta, sit amet semper ante consectetur. Donec in nibh mattis lectus posuere pellentesque. Sed nec est sed erat viverra ultrices vel at leo. Maecenas faucibus sit amet ligula in facilisis. Nullam bibendum, est et placerat rutrum, sem enim lobortis ante, ut interdum ex arcu vel lorem. Ut risus lacus, interdum eu consequat nec, hendrerit at arcu. Donec eleifend et urna nec pretium. Suspendisse consequat viverra turpis, ac maximus urna maximus nec. Maecenas massa orci, blandit eget nibh eget, elementum rhoncus lorem. Vivamus eget tortor ut arcu iaculis tincidunt et tincidunt nisi. Ut gravida orci sit amet velit feugiat malesuada. Etiam tincidunt dolor id aliquet molestie. Etiam egestas sem nec dolor pharetra, id placerat sapien bibendum.</p>
+                    <a href="#">Back To Top</a>
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <article id="sushi">
+                    <h3 class="text-center">Sushi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin libero felis, pulvinar at sem et, tempor ultrices massa. Suspendisse malesuada et libero eget placerat. Nunc faucibus gravida ipsum, eu gravida nisl placerat et. Curabitur vel facilisis ex. Etiam luctus mattis nisi, eu blandit diam sollicitudin sit amet. Morbi ultricies non sem vel facilisis. Ut rutrum purus mollis, efficitur augue ac, dapibus ante. Duis condimentum neque nec sodales condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt laoreet ante, id varius tortor luctus ac. Nam ac lorem vel velit commodo mollis nec ut leo. Nulla facilisi. Aliquam sem metus, rutrum sit amet dignissim pretium, condimentum eu nunc. Suspendisse ultricies blandit placerat. Quisque vel lectus et justo venenatis rutrum eu sit amet metus. Etiam feugiat finibus tempus. Donec pulvinar luctus lectus euismod pellentesque. Morbi a rutrum nibh. Sed et nisl vitae ante vestibulum elementum. Nunc scelerisque, massa vel fermentum posuere, nibh dolor maximus nulla, non interdum neque arcu venenatis eros. Aliquam ullamcorper tempor libero sed commodo. Etiam non tempor purus. Curabitur lobortis, tortor non accumsan tempus, leo nunc efficitur turpis, vel tempor urna tellus ac eros. Sed et congue ligula. Mauris sit amet magna eget felis mattis iaculis at sed ligula. Sed a luctus elit, sed volutpat dui. Nam nec nunc lobortis, sagittis eros id, faucibus nunc. Aliquam id justo nec urna lobortis feugiat. Maecenas tincidunt risus eget eleifend blandit. Curabitur tincidunt ante vitae elit porta, sit amet semper ante consectetur. Donec in nibh mattis lectus posuere pellentesque. Sed nec est sed erat viverra ultrices vel at leo. Maecenas faucibus sit amet ligula in facilisis. Nullam bibendum, est et placerat rutrum, sem enim lobortis ante, ut interdum ex arcu vel lorem. Ut risus lacus, interdum eu consequat nec, hendrerit at arcu. Donec eleifend et urna nec pretium. Suspendisse consequat viverra turpis, ac maximus urna maximus nec. Maecenas massa orci, blandit eget nibh eget, elementum rhoncus lorem. Vivamus eget tortor ut arcu iaculis tincidunt et tincidunt nisi. Ut gravida orci sit amet velit feugiat malesuada. Etiam tincidunt dolor id aliquet molestie. Etiam egestas sem nec dolor pharetra, id placerat sapien bibendum.</p>
+                    <a href="#">Back To Top</a>
+                </article>
+            </div>
         </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li class="text-center">
-              <a href="#hilsha-div"><p class="item">Hilsa/Ilish curry</p></a>
-              <hr class="visible-xs">
-            </li>            
-            <li class="text-center biryani-item">
-              <a href="#biryani-div"><p class="item">Biryani</p></a>
-              <hr class="visible-xs">
-            </li>
-            <li class="text-center chingri-item">
-              <a href="#chingri-div"><p class="item">Changri malai curry</p></a>
-            </li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-  	</header>
-
-	<h1 class="text-center">Our Menu</h1>
-
-	<div class="row container container-fluid">
-	<div class="col-md-12 col-sm-12 col-xs-12" id="hilsha-div">
-		<section>
-		<div id="hilsha">
-			Hilsa/Ilish curry
-		</div>
-		<p>
-			Hilsa (or ilish) curry is the national dish of Bangladesh, made from the Hilsa fish, and is one of the most popular traditional Bangladeshi dishes.
-
-			The Hilsa fish is marinated in turmeric and chili paste, before slowly frying on a low heat and serving with a mustard gravy and rice. The result is a combination of sweet and sour flavours with an incredible spicy kick.
-
-			Aside from being cheap, Hilsa curry is filling, flavoursome, easy to make and widely available due to the amount of Hilsa fish in the region, especially during rainy season. The sheer abundance of the Hilsa fish is why Hilsa Curry is the national dish of Bangladesh.
-
-			In Bangladesh it is common to eat every part of the Hilsa fish including the head and the eggs, nothing is wasted and each part even has its own unique delicacies. You can find fish egg dishes or fish head curries that are widely revered throughout the region.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="biryani-div">
-		<section>
-		<div id="biryani">
-			Biryani
-		</div>
-		<p>
-			Biryani, whilst not unique to Bangladesh, is a spicy rice dish made with meat or fish, rice, potatoes and spices.
-
-			Hugely popular throughout the Indian subcontinent, Bangladeshi biryani is often considered the best in the world.
-
-			In the Bengali region, popular meats include mutton, goat, chicken and beef, but there is such a wide variety of biryani dishes available that you can try.
-
-			A true traditional biryani involves different types of cooking and preparation, as marinated meat is layered with rice, potatoes and spices, the dish is jam packed with flavour.
-
-			You will often find biryani served at special occasions or celebrations such as weddings, but it is also eaten as a regular meal throughout the weak, such is its popularity.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="chingri-div">
-		<section>
-		<div id="chingri">
-			Changri malai curry
-		</div>
-		<p>
-			Changri malai curry is the most famous Bangladesh curry dish based on coconut milk, and is revered throughout the region, including India.
-
-			Chingri Malai (or Chingri Macher Malaikari as it is sometimes known), is a delicious creamy, satisfying seafood curry that is prepared by cooking prawns or shrimp in a coconut milk sauce with aromatic spices and served with basmati rice. Coconut milk is a very common ingredient in Bangladeshi cuisine, and this Changri Malai curry is a perfect example of that.
-
-			The word Malai suggests the dish was actually brought to the region by Malaysian sailors docking at the Bay of Bengal many years ago, and the use of coconut in curries gives credence to this theory since it is popular in South-East Asian cuisine.
-
-			Bangladeshi cooking is famed for its use of seafood and fish in curries, so Chingri malai is definitely a dish to try if you’re ever in the region.
-		</p>
-		</section>
-	</div>
-	</div>
-
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/script.js"></script>
+    </section>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
